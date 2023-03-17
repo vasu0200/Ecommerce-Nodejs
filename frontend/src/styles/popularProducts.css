@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#productsArr{
+    width: 100%;
+   display: grid;
+   grid-template-columns: repeat(4,auto);
+   gap: 1rem;
+   justify-content: space-evenly;
+ 
+
+}
+.productCard{
+    width: 18rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 5px solid rgb(240, 223, 223);
+    box-shadow: 8px 8px 8px 0 rgb(175, 172, 172);
+    padding: .7rem;
+}
+.productCard img{
+ width: 80%;
+}
+.priceContainer{
+    display: flex;
+    justify-content: space-between;
+}
+#btn1,#btn2{
+    width: 5rem;
+    padding:.5rem;
+    background-color: aquamarine;
+}
+h2{
+    padding: 1rem;
+}
